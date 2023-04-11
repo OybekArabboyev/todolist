@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100vh;
+}
+body {
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rebeccapurple;
+}
+.container {
+    padding: 150px 450px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 15px;
+    color: #FFFFFF;
+}
+.wrap {
+    width: 540px;
+    height: 64px;
+    left: 450px;
+    top: 158px;
+    background: #FFFFFF;
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#input {
+    width: 75%;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.25px;
+}
+#btn {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(128, 255, 24);
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#result {
+    margin-bottom: 50px;
+}
+.btn {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 15px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    border-radius: 50%;
+    background-image: url("images/x-symbol-svgrepo-com.svg");
+    background-position: center;
+    background-size: cover;
+}
+.li {
+    width: 540px;
+    height: 64px;
+    left: 450px;
+    top: 158px;
+    background: #FFFFFF;
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.25px;
+    color: #494C6B;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: rgba(194, 195, 214, 0.5) solid 2px;
+}
+.li-active {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.btn-active {
+    text-decoration: none;
+}
