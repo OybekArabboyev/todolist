@@ -36,3 +36,4 @@ function createDeleteElement(value) {
 
     result.appendChild(li)
 }
+console.log(localStorage);

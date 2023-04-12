@@ -10,6 +10,8 @@ body {
     height: 100%;
     font-family: 'Josefin Sans', sans-serif;
     background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
 }
 .container {
     padding: 150px 450px;
@@ -113,4 +115,21 @@ ul {
 }
 .btn-active {
     text-decoration: none;
+}
+
+@media (max-width: 1300px) {
+    .container {
+        padding: 50px;
+    }
+}
+@media (max-width: 643px) {
+    .container {
+        padding: 50px 5px 5px 5px;
+    }
+    .wrap {
+        width: 300px;
+    }
+    .li {
+        width: 300px;
+    }
 }
